@@ -42,15 +42,7 @@ Un **marketplace asistido** que clasifica, publica y vende esos subproductos con
 ## Lo que aprendimos
 
 __APRENDIZAJE__ (ej.: "la trazabilidad pesaba más de lo que pensábamos en la decisión de compra")
-
-## Equipo
-
-| Integrante           | Rol                                                                      |
-| -------------------- | ------------------------------------------------------------------------ |
-| Hans Ventura Rengifo | Investigación de mercado, validación con usuarios y prototipo en Figma |
-| __NOMBRE__     | __ROL__                                                            |
-| __NOMBRE__     | __ROL__                                                            |
-
+                                                         
 ## Tecnología
 
 Landing estática en HTML, CSS y JavaScript, publicada en Netlify. El prototipo se diseñó en Figma.
