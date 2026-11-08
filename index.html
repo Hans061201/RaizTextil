@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raíz Textil - Marketplace Circular de Algodón Nativo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navegación -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <img class="logo-img" src="assets/img/Captura de pantalla 2026-02-11 004729.png" alt="Raíz Textil Logo">
+        <span>Raíz Textil</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#impacto">Impacto</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Raíz Textil</h1>
+      <h2>Marketplace circular de algodón nativo del Perú</h2>
+      <p>Transformamos residuos y subproductos del algodón nativo en oportunidades sostenibles con trazabilidad y valor
+        cultural.</p>
+      <div class="hero-buttons">
+        <a href="#productos" class="btn btn-primary">Explorar productos</a>
+        <a href="#impacto" class="btn btn-secondary">Conocer el impacto</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problema -->
+  <section id="problema" class="section problema">
+    <div class="container">
+      <h2>El problema</h2>
+      <h3>El algodón nativo pierde valor en la cadena productiva</h3>
+      <p>Cada año, toneladas de fibra corta, retazos y subproductos del algodón nativo no son valorizados adecuadamente.
+      </p>
+      <div class="problem-cards">
+        <div class="problem-card">
+          <h4>Bajos márgenes por intermediación</h4>
+        </div>
+        <div class="problem-card">
+          <h4>Acceso limitado a mercados digitales</h4>
+        </div>
+        <div class="problem-card">
+          <h4>Dificultad para escalar sin perder identidad</h4>
+        </div>
+      </div>
+      <p class="problem-conclusion">Mientras tanto, el mercado sostenible busca materiales circulares y trazables.</p>
+    </div>
+  </section>
+
+  <!-- Solución -->
+  <section id="solucion" class="section solucion">
+    <div class="container">
+      <h2>Nuestra solución</h2>
+      <h3>Un marketplace especializado en economía circular</h3>
+      <p>Raíz Textil conecta productores de algodón nativo con diseñadores, emprendedores y consumidores conscientes,
+        mediante un marketplace asistido que:</p>
+      <div class="solution-features">
+        <div class="feature">
+          <div class="feature-icon"></div>
+          <span>Revaloriza residuos textiles</span>
+        </div>
+        <div class="feature">
+          <div class="feature-icon"></div>
+          <span>Garantiza trazabilidad básica</span>
+        </div>
+        <div class="feature">
+          <div class="feature-icon"></div>
+          <span>Mejora ingresos del productor</span>
+        </div>
+        <div class="feature">
+          <div class="feature-icon"></div>
+          <span>Promueve identidad cultural</span>
+        </div>
+      </div>
+      <p class="solution-modelo">Modelo híbrido: articulación con productores + gestión digital centralizada.</p>
+    </div>
+  </section>
+
+  <!-- Productos -->
+  <section id="productos" class="section productos">
+    <div class="container">
+      <h2>Productos del PMV</h2>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image"></div>
+          <div class="product-info">
+            <h3>Retazos Clasificados</h3>
+            <p class="product-subtitle">Algodón Nativo</p>
+            <p class="product-origin">Origen: Supe – Barranca</p>
+            <p class="product-presentation">Presentación: por kg</p>
+            <p class="product-price">S/ 28 – S/ 35 por kg</p>
+            <p class="product-description">Retazos seleccionados por tonalidad natural, ideales para patchwork, diseño
+              circular y accesorios sostenibles.</p>
+            <button class="btn btn-primary" onclick="contactar('retazos')">Solicitar pedido</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image"></div>
+          <div class="product-info">
+            <h3>Fibra Corta Revalorizada</h3>
+            <p class="product-subtitle">Algodón Nativo</p>
+            <p class="product-origin">Origen: Costa Norte</p>
+            <p class="product-presentation">Presentación: fibra limpia por kg</p>
+            <p class="product-price">S/ 18 – S/ 25 por kg</p>
+            <p class="product-description">Fibra descartada del proceso de hilado, reutilizable para relleno textil,
+              fieltro o biomateriales.</p>
+            <button class="btn btn-primary" onclick="contactar('fibra')">Solicitar pedido</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image"></div>
+          <div class="product-info">
+            <h3>Kit Creativo Circular</h3>
+            <p class="product-subtitle">Algodón Nativo</p>
+            <p class="product-includes">Incluye:</p>
+            <ul class="product-list">
+              <li>Retazos variados</li>
+              <li>Historia del productor</li>
+              <li>Ficha de trazabilidad</li>
+            </ul>
+            <p class="product-price">S/ 45 por kit</p>
+            <p class="product-description">Kit para diseñadores y estudiantes que buscan experimentar con materiales
+              sostenibles y cultura textil peruana.</p>
+            <button class="btn btn-primary" onclick="contactar('kit')">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cómo funciona -->
+  <section id="como-funciona" class="section como-funciona">
+    <div class="container">
+      <h2>Cómo funciona</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <p>Productor entrega residuos o subproductos</p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <p>Raíz Textil clasifica y publica en la plataforma</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <p>Compradores adquieren productos con trazabilidad</p>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <p>El productor recibe mayor margen</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impacto -->
+  <section id="impacto" class="section impacto">
+    <div class="container">
+      <h2>Impacto triple</h2>
+      <div class="impact-grid">
+        <div class="impact-card">
+          <h3>Económico</h3>
+          <ul>
+            <li>Mejores ingresos para productores</li>
+            <li>Modelo por comisión (10%)</li>
+          </ul>
+        </div>
+        <div class="impact-card">
+          <h3>Ambiental</h3>
+          <ul>
+            <li>Reducción de residuos textiles</li>
+            <li>Economía circular aplicada</li>
+          </ul>
+        </div>
+        <div class="impact-card">
+          <h3>Cultural</h3>
+          <ul>
+            <li>Preservación del algodón nativo</li>
+            <li>Revalorización de identidad textil peruana</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Validación -->
+  <section id="validacion" class="section validacion">
+    <div class="container">
+      <h2>Validación preliminar</h2>
+      <div class="validation-content">
+        <h3>Encuesta realizada a ? diseñadores y estudiantes de moda:</h3>
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-number">72%</span>
+            <span class="stat-label">compraría retazos clasificados</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">68%</span>
+            <span class="stat-label">valora trazabilidad del origen</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">60%</span>
+            <span class="stat-label">pagaría más por material sostenible</span>
+          </div>
+        </div>
+        <p class="validation-conclusion">Esto convierte la idea en oportunidad real.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modelo de negocio -->
+  <section id="modelo" class="section modelo">
+    <div class="container">
+      <h2>Modelo de negocio</h2>
+      <div class="business-model">
+        <div class="model-item">
+          <h3>Ingresos</h3>
+          <p>Comisión del 10% por venta</p>
+        </div>
+        <div class="model-item">
+          <h3>Inventario</h3>
+          <p>Sin inversión en inventario propio</p>
+        </div>
+        <div class="model-item">
+          <h3>Logística</h3>
+          <p>Logística tercerizada</p>
+        </div>
+        <div class="model-item">
+          <h3>Operación</h3>
+          <p>Marketplace asistido en fase inicial</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA final -->
+  <section id="contacto" class="section cta">
+    <div class="container">
+      <h2>¿Eres productor o diseñador sostenible?</h2>
+      <p>Únete a Raíz Textil y transforma residuos en valor.</p>
+      <div class="cta-buttons">
+        <button class="btn btn-primary" onclick="contactar('vender')">Quiero vender</button>
+        <button class="btn btn-secondary" onclick="contactar('comprar')">Quiero comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Raíz Textil. Transformando residuos en valor.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
