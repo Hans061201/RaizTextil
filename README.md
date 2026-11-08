@@ -39,9 +39,6 @@ Un **marketplace asistido** que clasifica, publica y vende esos subproductos con
 - **Ambiental:** menos residuos textiles
 - **Cultural:** se preserva el algodón nativo peruano
 
-## Lo que aprendimos
-
-__APRENDIZAJE__ (ej.: "la trazabilidad pesaba más de lo que pensábamos en la decisión de compra")
                                                          
 ## Tecnología
 
