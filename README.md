@@ -47,4 +47,5 @@ Landing estática en HTML, CSS y JavaScript, publicada en Netlify. El prototipo 
 ## Entregable
 
 Realizamos 2 entregables por el momento solo encontre el link al segundo que esta en canva.
-2do_Entregabla [https://canva.link/rsegfju0at2sm0g]
+
+2do_Entregabla _[https://canva.link/rsegfju0at2sm0g]_
