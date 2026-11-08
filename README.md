@@ -43,3 +43,8 @@ Un **marketplace asistido** que clasifica, publica y vende esos subproductos con
 ## Tecnología
 
 Landing estática en HTML, CSS y JavaScript, publicada en Netlify. El prototipo se diseñó en Figma.
+
+## Entregable
+
+Realizamos 2 entregables por el momento solo encontre el link al segundo que esta en canva.
+2do_Entregabla [https://canva.link/rsegfju0at2sm0g]
